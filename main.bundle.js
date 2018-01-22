@@ -25,7 +25,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".container {\r\n  width: 100%;\r\n  margin: 0 auto;\r\n  background-color: white;\r\n}\r\n\r\n.paginator {\r\n  text-align: center;\r\n  padding-bottom: 1%;\r\n}\r\n.paginator > button {\r\n  border-radius: 50%;\r\n  width: 40px;\r\n  height: 40px;\r\n  background-color: transparent;\r\n  font-size: 1.5em;\r\n  outline: none;\r\n  border: 3px solid transparent;\r\n  color: #9e9e9e;\r\n  cursor: pointer;\r\n}\r\n\r\n.paginator > button:hover {\r\n  color: #263238;\r\n}\r\n\r\n.paginator > button:active {\r\n  background-color: lightgrey;\r\n  border: 3px solid silver;\r\n}\r\n\r\n.row {  \r\n  padding: 1em 0;\r\n  box-sizing: border-box;   \r\n  background-color: white;\r\n  \r\n}\r\n\r\n.description {\r\n  display:-webkit-box;\r\n  display:-ms-flexbox;\r\n  display:flex;\r\n}\r\n\r\n.row > p {\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  padding: 0 15px;\r\n  box-sizing: border-box;\r\n}\r\n.description > p {\r\n  width: 80%;\r\n  text-align: justify;\r\n  font-size:0.9em;\r\n  padding: 0 15px;\r\n  margin:0;\r\n}\r\n.description > div {\r\n  width: 20%;\r\n  padding: 0 1em;\r\n  box-sizing: border-box;  \r\n}\r\n.description > div > img {\r\n  border-radius: 3px;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".container {\r\n  width: 100%;\r\n  margin: 0 auto;\r\n\r\n}\r\n\r\n.paginator {\r\n  text-align: center;\r\n  \r\n}\r\n.paginator > button {\r\n  border-radius: 50%;\r\n  width: 40px;\r\n  height: 40px;\r\n  background-color: transparent;\r\n  font-size: 1.5em;\r\n  outline: none;\r\n  border: 3px solid transparent;\r\n  color: #9e9e9e;\r\n  cursor: pointer;\r\n}\r\n\r\n.paginator > button:hover {\r\n  color: #263238;\r\n}\r\n\r\n.paginator > button:active {\r\n  background-color: lightgrey;\r\n  border: 3px solid silver;\r\n}\r\n\r\n.row {  \r\n \r\n  box-sizing: border-box;   \r\n  padding-bottom:2em;\r\n  \r\n}\r\n\r\n.description {\r\n  display:-webkit-box;\r\n  display:-ms-flexbox;\r\n  display:flex;\r\n}\r\n\r\n.row > p {\r\n  font-weight: bold;\r\n  font-size: 1.2em;\r\n  padding: 0 15px 10px 15px;\r\n  box-sizing: border-box;\r\n  margin:0;\r\n}\r\n\r\n.description > p {\r\n  width: 80%;\r\n  text-align: justify;\r\n  font-size:0.9em;\r\n  padding: 0 15px;\r\n  margin:0;\r\n}\r\n.description > div {\r\n  width: 20%;\r\n  padding: 0 1em;\r\n  box-sizing: border-box;  \r\n}\r\n.description > div > img {\r\n  border-radius: 3px;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -65,7 +65,7 @@ var AppComponent = (function () {
         var _this = this;
         this.flowerservice = flowerservice;
         this.flowers = [];
-        this.pageSize = 2;
+        this.pageSize = 5;
         this.pageNumber = 1;
         this.flowersInPage = [];
         this.getDataPage = function () {
