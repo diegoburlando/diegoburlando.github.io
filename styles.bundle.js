@@ -35,7 +35,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "body {\r\n  padding: 0;\r\n  margin: 0;\r\n  font-family: \"PT Sans\", sans-serif;\r\n  color: #263238;\r\n  background-color:#F1F8E9;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\r\n  padding: 0;\r\n  margin: 0;\r\n  font-family: 'Open Sans', sans-serif;\r\n  color: #263238;\r\n  background-color:aqua;\r\n}\r\n", ""]);
 
 // exports
 
